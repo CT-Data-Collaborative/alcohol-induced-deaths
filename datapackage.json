@@ -43,7 +43,8 @@
           "constraints": {
 			      "enum": [
 		          "Number",
-		          "Rate (per 100,000)"
+		          "Crude Rate (per 100,000)", 
+		          "AAMR (per 100,000)"
 		        ]
 			    }
         }, {
@@ -67,7 +68,7 @@
   "ckan_extras": {
     "full_description": {
       "ckan_name": "Full Description",
-      "value": "Deaths from accidents, homicides, and other causes indirectly related to alcohol use, as well as newborn deaths associated with maternal alcohol use are excluded from this count. The age-adjusted mortality rate (AAMR) controls for the impact of different age structures in order to better evaluate risk levels that are independent of the age composition of the population. Connecticut Department of Public Health collects data annually.  CTdata.org carries five year aggregations of annual data. The three year aggregate data from 1999-2001 to 2007-2009 has been archived.",
+      "value": "Deaths from accidents, homicides, and other causes indirectly related to alcohol use, as well as newborn deaths associated with maternal alcohol use are excluded from this count. The age-adjusted mortality rate (AAMR) controls for the impact of different age structures in order to better evaluate risk levels that are independent of the age composition of the population. Connecticut Department of Public Health collects data annually. CTdata.org carries five year aggregations of annual data. The three year aggregate data from 1999-2001 to 2007-2009 has been archived.",
       "type": "string"
     },
     "suppression": {
